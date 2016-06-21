@@ -1,0 +1,49 @@
+$def with(s)
+<!DOCTYPE html> 
+<html>
+<head>
+	<title>login</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet"  href="../static/jquery.mobile-1.4.5.min.css" />
+	<script src="../static/jquery.min.js"  ></script>
+	<script  src="../static/jquery.mobile-1.4.5.min.js"></script>
+</head>
+
+<body>
+<div data-role="page">
+
+	<div data-role="header">
+		<h1>用户登录</h1>
+	</div><!-- /header -->
+
+	<div role="main" class="ui-content">
+		<p>
+        <form action="/login" method="post">
+     <label for="text-1">帐号</label>
+     <input type="text" name="name" id="name" value="11" placeholder="请输入手机号">
+     <label for="text-3">密码</label>
+     <input  type="password" name="text-2" id="text-2" value="" placeholder="请输入密码">
+
+<input type="submit" value="登录">
+</form>
+        
+        
+        
+        </p>
+	</div><!-- /content -->
+
+	<div data-role="footer" data-position="fixed">
+    <div data-role="navbar">
+      <ul>
+        <li><a href="#" data-icon="plus">更多</a></li>
+        <li><a href="#" data-icon="minus">更少</a></li>
+        <li><a href="#" data-icon="delete">删除</a></li>
+        <li><a href="#" data-icon="check">喜爱</a></li>
+        <li><a href="#" data-icon="info">信息</a></li>
+      </ul>
+    </div>
+	</div><!-- /footer -->
+</div><!-- /page -->
+</body>
+</html>
