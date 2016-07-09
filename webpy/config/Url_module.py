@@ -14,8 +14,9 @@ view = 'view.'
 urls = (
 # '/',                render + 'Index_module.Index',
 '/login',           render + 'Login_module.Login',
-'/index',           render + 'Index_module.Index',
-# '/index_url',           render + 'Index_url_module.Index_url',
+'/admin_index',           render + 'Index_admin_module.Index',
+'/stu_index',           render + 'Index_stu_module.Index',
+'/logout',           render + 'Logout_module.Logout',
 # '/register(.*)',           render + 'Register_module.Register',
 # '/begin_muji',           render + 'Begin_muji_module.Begin_muji',
 # '/sign_detail',           render + 'Sign_detail_module.Sign_detail',

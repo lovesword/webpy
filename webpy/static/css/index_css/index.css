@@ -64,7 +64,7 @@ a:hover{text-decoration:none;}
 .crumb a{ margin:0 20px;}
 .pic_list{ margin-top:10px; position:relative; width:100%;}
 .pic_list ul{ padding:0px; margin:0px; list-style:none;  display: inline-flex; zoom:1; *display:inline-flex;}
-.pic_list ul li{position:relative; float:left;  height:115px; border: 1px solid #DDDDDD; margin-right:18px; width:auto;  zoom:1; *display:inline-flex;}
+.pic_list ul li{position:relative; float:left;  height:200px; border: 1px solid #DDDDDD; margin-right:28px; width:auto;  zoom:1; *display:inline-flex;}
 .pic_list ul li .sml{margin-top:20px; color:#fff; display: inline-table; width: 100%; }
 .pic_list ul li .sml p{ padding:0 10px;}
 .pic_list ul li .sml img{ position:absolute; left:5px; top:10px;}

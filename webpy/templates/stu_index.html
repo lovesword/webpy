@@ -1,0 +1,149 @@
+$def with(s)
+<!DOCTYPE HTML>
+<html> 
+<title>首页</title>
+<link href="static/css/index_css/index.css" rel="stylesheet"  type="text/css" />
+<body> 
+<div class="box">
+    <div class="main">
+        <div class="crumb">
+            <span class="fl">
+                <a href="/Index">燕山大学档案馆</a>
+                <a href="###"> 欢迎靳那英来到【靳那英的档案馆】！</a>　
+                 
+            </span>
+             
+            <span class="fr"  id="time_view">
+            <script type="text/javascript">setInterval("time_view.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);</script>
+            </span>
+            <!--<span class="fr"><a href="#"><img src="static/css/index_css/images/sz.png" /></a></span>-->
+        </div>
+        <div class="clear"></div>
+
+         <div class="pic_list" style=" text-align:center; vertical-align:middle; padding-top:150px;">
+             <ul>
+             
+             <a href="/Server/Order/LongDistanceBus">
+                 <li class="g fl">
+                 <div class="sml">
+                 <span class="fr "><p class="f_30">{{all_l_order_cnt}}</p>      
+                 <p>今日长途订单数量</p>
+                 </span>
+                 <img src="static/css/index_css/images/car.png" />
+                 </div>
+　　　　　　　　　　<!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+             </li>
+				</a>
+                <a href="/Server/Order/LongDistanceBus">
+                 <li class="z fl">
+                 <div class="sml">
+                 <span class="fr "><p class="f_30">{{all_l_sellticket}}</p>      
+                    <p>今日长途售票数量</p>
+                 </span>
+                 <img src="static/css/index_css/images/fg.png" />
+                 </div>
+　　　　　　　　　　<!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+                </li>
+                 </a>
+                 <a href="/Server/Order/LongDistanceBus">
+                 <li class="c fl">
+                 <div class="sml">
+                 <span class="fr "><p class="f_30">{{all_l_sellmoney}}</p>      
+                    <p>今日长途订单金额</p>
+                 </span>
+               <img src="static/css/index_css/images/doll.png" />
+                 </div>
+　　　　　　　　　　<!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+                 </li>
+                 </a>
+                  
+                  <br>
+               <!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+               <a href="/Server/Order/LocalBus?date_today={{date_today}}">               </a>
+                 
+             </ul>
+
+
+ <ul>
+             
+             <a href="/Server/Order/LongDistanceBus">
+                 <li class="g fl">
+                 <div class="sml">
+                 <span class="fr "><p class="f_30">{{all_l_order_cnt}}</p>      
+                 <p>今日长途订单数量</p>
+                 </span>
+                 <img src="static/css/index_css/images/car.png" />
+                 </div>
+　　　　　　　　　　<!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+                 </li>
+				</a>
+                <a href="/Server/Order/LongDistanceBus">
+                 <li class="z fl">
+                 <div class="sml">
+                 <span class="fr "><p class="f_30">{{all_l_sellticket}}</p>      
+                    <p>今日长途售票数量</p>
+                 </span>
+                 <img src="static/css/index_css/images/fg.png" />
+                 </div>
+　　　　　　　　　　<!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+                 </li>
+                 </a>
+                 <a href="/Server/Order/LongDistanceBus">
+                 <li class="c fl">
+                 <div class="sml">
+                 <span class="fr "><p class="f_30">{{all_l_sellmoney}}</p>      
+                    <p>今日长途订单金额</p>
+                 </span>
+               <img src="static/css/index_css/images/doll.png" />
+                 </div>
+　　　　　　　　　　<!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+                 </li>
+                 </a>
+                  
+                  <br>
+        <!--<div class="tips">
+                        <span class="fl"><a href="###">更多</a></span>
+                        <span class="fr"><a href="###"><img src="static/css/index_css/images/mor.gif" /></a>
+                       </span>
+                    </div>-->
+        <a href="/Server/Order/LocalBus?date_today={{date_today}}">        </a>
+                 
+             </ul>
+
+
+
+         </div>
+           <div class="clear"></div>
+    </div>
+</div>
+   
+</body>
+</html>    

@@ -11,7 +11,7 @@ class Index:
         try: 
             s = web.Storage(locals())
             web.header("Content-Type","text/html;charset=utf-8")
-            return render.index(s)
+            return render.stu_index(s)
 
         except Exception ,e:
             #跳转报错页面
