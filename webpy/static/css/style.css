@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* 你自己的样式 */
+.MenuItemPA {
+	/*background-image: url(../images/baidu_map_marker.png);*/
+}
+
+.tc{ text-align:center;}
+.h-35{height:35px;}
+.mt10{ margin-top:10px;}
+.w-345{ width:345px;}
+
+.permission-list label{padding:0 10px;}
+.permission-list input{ vertical-align:middle;}
+
+.menu_dropdown dl dt:hover{
+	background-color: rgb(24,24,24);
+}
+
+.menu_dropdown dl dt{
+	border-bottom:1px solid rgb(24,24,24);
+}
+
+.menu_dropdown dl dd ul li{
+	margin-top: 1px;
+	margin-bottom: 1px;
+}
+
+.menu_dropdown dl dd ul li:hover{
+	background-color: #777;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.menu_dropdown dt.selected{
+	background-color: rgb(24,24,24);
+}
+
+.gray{
+	background: #777;
+	margin-left: -5px;
+	margin-right: -5px;
+}
+
+.menu_dropdown{
+  font-weight: 600;
+  font-family:"Microsoft Yahei","Hiragino Sans GB","Helvetica Neue",Helvetica,tahoma,arial,"WenQuanYi Micro Hei",Verdana,sans-serif,"\5B8B\4F53";
+  font-size:15px;
+  color: #333;
+  -webkit-font-smoothing: antialiased;-moz-osx-font-smoothing:grayscale;
+}
+
+.Hui-aside{
+	background-color: rgb(86,86,86);
+}
